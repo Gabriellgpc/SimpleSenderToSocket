@@ -17,8 +17,6 @@ sendWindow::~sendWindow()
     delete ui;
 }
 
-#include <iostream>
-
 void sendWindow::on_send_pushButton_clicked()
 {
   int nrepeat = ui->repeat_spinBox->value();
